@@ -4,8 +4,8 @@ from PySide6.QtCore import Qt
 from PySide6.QtGui import QPixmap, QImage
 from PySide6.QtWidgets import QMainWindow, QApplication
 
-from ui.todoMainWindow import Ui_MainWindow
-from resources import resources_rc
+from ui.todomainwindow import Ui_MainWindow
+from ui import resources_rc
 
 
 class MainWindow(QMainWindow, Ui_MainWindow):
